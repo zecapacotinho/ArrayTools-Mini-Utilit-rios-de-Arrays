@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArrayTools</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>🧮 ArrayTools</h1>
+        </header>
+        <section class="area">
+            <div class="funções">
+                <label for="funcao"><p>Escolha a função:</p></label>
+                <select id="funcao">
+                    <option value="media">Média dos Números</option>
+                    <option value="multiplos">Filtrar Múltiplos de 3 e 5</option>
+                    <option value="inverter">Inverter Elementos</option>
+                    <option value="duplicados">Remover Duplicados</option>
+                    <option value="segundoMaior">Segundo Maior Número</option>
+                </select>
+            </div>
+            <div class="valores">
+                <label for="array"><p>Digite o array (ex: 1,2,3,4):</p></label>
+                <input type="text" id="array" placeholder="1,2,3,4,5" />
+                <button onclick="executar()">Executar</button>
+            </div>
+            <div class="resultado" id="resultado">
+                <input type="text" name="num" id="num" readonly placeholder="Resultado aparecerá aqui...">
+            <div>
+        </section>
+    </main>
+</body>
+</html>
